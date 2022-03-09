@@ -13,6 +13,11 @@ configure your name & email:
 a. create a folder c:\gitPOC
 b. in cmd window:
 	cd c:\gitPOC
-	git init
+	git init (initialize a repository)
 	git status
+	git add 03_git_basics.txt (add the file to the staging area)
+	git commit -m "initial commit for git poc"
+	git log
+	
+	
 	
