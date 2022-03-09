@@ -18,6 +18,18 @@ b. in cmd window:
 	git add 03_git_basics.txt (add the file to the staging area)
 	git commit -m "initial commit for git poc"
 	git log
-	
+c. copy the updated "D:\OneDrive - Bentley Systems, Inc\P532_DevOps\03_git_basics.txt" to c:\gitPOC
+d. in cmd window:
+	git add . (everything in the folder)
+	git commit -m "add more info"
+	git log
+	git checkout 0b55aaa5bc18d8a889c9af2a5e0a55fb25b0f4e0 (go back to the previous commit, the hash is the # for previous commit which can be retrieved via git log)
+e. in cmd window:
+	git branch (display all branches, because roll back to a previous commit, currently off the main branch)
+	git checkout main (go back to main branch, and automatically roll back to the latest commit)
+f. in cmd window:
+	git branch branchPOC (create a new branch)
+	git checkout branchPOC (switch to branchPOC)
+
 	
 	
