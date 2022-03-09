@@ -61,7 +61,4 @@ d. to pull the latest changes from remote repo:
 	git pull -u origin main
 e. to create a new branch
 	git checkout -b githubbranchPOC
-f. modify c:\gitPOC\03_git_basics.txt
-g. git add .
-h. git commit -m "add github info"
-h. git push -u origin githubbranchPOC (push the new branch to remote repo)
+	
