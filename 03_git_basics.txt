@@ -1,3 +1,8 @@
+git basics help: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+git 101 for beginners: https://www.youtube.com/watch?v=USjZcfj8yxE&t=348s
+
+********************************************************************************************************************
+
 git installation: https://git-scm.com/downloads
 
 git upgrade: git update-git-for-windows
@@ -10,7 +15,7 @@ configure your name & email:
 
 ********************************************************************************************************************
 
-a. create a folder c:\gitPOC
+a. create a folder c:\gitPOC & copy "D:\OneDrive - Bentley Systems, Inc\P532_DevOps\03_git_basics.txt" to c:\gitPOC
 b. in cmd window:
 	cd c:\gitPOC
 	git init (initialize a repository)
@@ -30,6 +35,30 @@ e. in cmd window:
 f. in cmd window:
 	git branch branchPOC (create a new branch)
 	git checkout branchPOC (switch to branchPOC)
-
+	git log (becuase currently on branchPOC, can see all 3 commits)
+	git checkout main
+	git log (on main branch, can only see 2 commits)
+g. in cmd window:
+	git merge branchPOC
 	
+
+********************************************************************************************************************
+
+github: https://github.com/
+github 101 for beginners: https://www.youtube.com/watch?v=nhNq2kIvi9s&t=401s
+
+********************************************************************************************************************
+
+a. create a repository in github
+b. in cmd window:
+	git remote -v (display remote repo)
+	git remote add origin https://github.com/markgao085/gitHubPOC.git
+	git push -u origin main (push local repo to github)
+c. add collaborators:
+	in github repo: https://github.com/markgao085/gitHubPOC
+	settings - collaborators
+d. to pull the latest changes from remote repo:
+	git pull -u origin main
+e. to create a new branch
+	git checkout -b githubbranchPOC
 	
