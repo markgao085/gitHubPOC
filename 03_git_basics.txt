@@ -1,0 +1,18 @@
+git installation: https://git-scm.com/downloads
+
+git upgrade: git update-git-for-windows
+
+show git version:  git --version
+
+configure your name & email: 
+	git config --global user.name "Mark Gao"
+	git config --global user.email "mark.gao@bentley.com"
+
+********************************************************************************************************************
+
+a. create a folder c:\gitPOC
+b. in cmd window:
+	cd c:\gitPOC
+	git init
+	git status
+	
