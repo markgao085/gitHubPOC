@@ -66,8 +66,4 @@ g.  in cmd window:
 	git add .
 	git commit -m "add github clone info"
 	git push -u origin githubbranchPOC (note git is case-sensitive)
-h. in github
-	pull requests
-	create pull request
-	merge pull request - create a merge commit (merge changes from githubbranchPOC to main)
-	
+h. in github, follow the screenshots (03x_git_*.jpg)
